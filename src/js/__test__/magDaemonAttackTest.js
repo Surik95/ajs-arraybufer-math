@@ -12,7 +12,7 @@ test.each([
     personage.stoned = stoned;
     personage.distance = distance;
     expect(personage.attack).toBe(expected);
-  }
+  },
 );
 
 test.each([
@@ -26,5 +26,5 @@ test.each([
     personage.stoned = stoned;
     personage.distance = distance;
     expect(personage.attack).toBe(expected);
-  }
+  },
 );
